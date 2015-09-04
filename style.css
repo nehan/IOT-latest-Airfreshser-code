@@ -1,0 +1,260 @@
+* {
+    font-family: "HelveticaNeue-Light",Arial,sans-serif;
+    font-size: 32px;
+  
+}
+body {
+    background: #222;   
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url(air-background.jpg) no-repeat top center; 
+     
+}
+
+.username{
+        font-family: helveticaNeue-Light;
+    
+        font-size: 16px;
+    position: relative;
+    float: left;
+    /* margin-right: 57px; */
+    margin-top: 27px;
+    
+        margin-left: 28px;
+    color: #005C41;
+    font-weight: bold;
+    top: 20px;
+}
+.txtusername{
+    font-size: 12px;
+    position: relative;
+    margin-top: 44px;
+    margin-left: 10px;
+    padding: 0px;
+    height: 30px;
+    /* top: 0px; */
+    border-radius: 8px;
+}
+.password{
+        font-family: helveticaNeue-Light;
+    
+        font-size: 16px;
+    position: relative;
+    
+        float: left;
+    
+        margin-right: 10px;
+    /* margin-top: 68px; */
+    color: #005C41;
+    font-weight: bold;
+    /* top: 32px; */
+    margin-top: 99px;
+    
+        margin-left: -73px;
+}
+.txtpassword{
+font-size: 14px;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    
+height: 30px;
+    top: 47px;
+    
+width: 150px;
+border-radius: 8px;
+    /* margin-top: 16px; */
+    
+margin-left: -160px;
+}
+.titlebar{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    border-bottom:1px solid;
+    border-bottom-color:#6F9A03;
+    z-index: 40;
+    margin-top:0px;
+    background-color: #005C41;
+}
+
+li.title{
+  font-size: 20px;
+    padding-top: -20px;
+    font-family: "Copperplate";
+    font-weight: bold;
+    float: left;
+    top: -13px;
+    position: relative;
+    color: white;
+    left: 18px;
+}
+li.logOut{
+    list-style-type: none;
+}
+li.logOut a{
+   font-size: 20px;
+    padding-top: -20px;
+    font-family: "Copperplate";
+    font-weight: bold;
+    padding-left: 20px;
+    float: left;
+    top: -13px;
+    position: relative;
+    color: rgb(16, 239, 241);
+    left: 18px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.main{
+    position: absolute;
+    top: 61px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-color: rgba(255, 255, 255, 0.57);
+
+}
+.search_page{
+    width: 302px;
+    
+    height: 203px;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    border-radius: 46px;
+    position: relative;
+    float: left;
+    margin-top: 85px;
+    
+    margin-left: 28px;
+    
+}
+/*Nav*/
+
+
+.search_btn{
+      font-family: 'Helvetica Neue',sans-serif;
+    
+      font-size: 13px;
+    border-radius: 10px;
+    
+      width: 71px;
+    height: 30px;
+    color: white;
+    background: linear-gradient(#005C00,#5C8D5C);
+    
+      margin-left: -164px;
+    margin-top: 12px;
+    border: none;
+    top: 96px;
+    position: relative;
+}
+
+/*css for account.html*/
+.login_page{
+        width:100%;
+        height:100%;
+        position:relative;
+        background-color:white;
+}
+.register_now{
+    font-size: 14px;
+    position: relative;
+    top: 128px;
+    margin-left: -114px;
+}
+.register_link{
+        font-size: 15px;
+    /* margin-top: 48px; */
+    position: relative;
+    top: 128px;
+    margin-left: 4px;
+    font-style: italic;
+}
+.register p#register{
+    font-size: 16px;
+    left: 113px;
+    font-weight: bold;
+    color:black;
+}
+.register p{
+    font-size: 13px;
+    position: relative;
+    left: 6px;
+    top: 6px;
+    color: red;
+}
+.register label{
+    font-size: 15px;
+    position: relative;
+    left: 9px;
+}
+.register input{
+       width: 165px;
+    height: 30px;
+    position: relative;
+    top: -20px;
+    
+       left: 148px;
+    border-radius: 7px;
+    font-size: 12px;
+}
+.register_div{
+ width: 333px;
+    
+ height: 338px;
+    position: relative;
+    background-color: rgb(241, 241, 241);
+    border-radius: 46px;
+    position: relative;
+    float: left;
+    
+ margin-top: 50px;
+    
+ margin-left: 11px;
+    
+}
+.register input#home_address{
+    top: 2px;
+    position: relative;
+    left: 27px;
+}
+.register input.reg_btn{
+   font-size: 14px;
+    position: relative;
+    top: 11px;
+    
+   left: 105px;
+    color: white;
+    width: 99px;
+    background: linear-gradient(#005C00,#5C8D5C);
+}
+.register span.compulsory{
+        font-size: 23px;
+    color: red;
+}
+.start_btn{
+      width: 75px;
+    /* margin-top: 85px; */
+    margin-left: 120px;
+    /* float: left; */
+    margin-top: 19px;
+    /* margin-left: -360px; */
+    position: relative;
+    float: left;
+}
+.start_lbl{
+       position: relative;
+    top: 127px;
+    margin-left: -124px;
+    font-size: 16px;
+    color: #142D14;
+    /* margin-top: 24px; */
+    padding-left: -12px;
+    font-weight: bold;
+}
